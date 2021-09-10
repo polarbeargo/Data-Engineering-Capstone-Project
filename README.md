@@ -1,4 +1,17 @@
 # Data-Engineering-Capstone-Project  
+
+### Raw data
+[Kaggle Berkeley Earth Climate Change: Earth Surface Temperature Data
+Exploring global temperatures since 1750](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data)   
+Source: [GlobalLandTemperaturesByCity.csv](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCity.csv)
+- dt (object)  
+- AverageTemperature (float64)  
+- AverageTemperatureUncertainty (float64)  
+- City (object)  
+- Country (object)  
+- Latitude (object)  
+- Longitude (object)  
+
 ### Instructions
 
 Step 1: Scope the Project and Gather Data  
