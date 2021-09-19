@@ -13,28 +13,33 @@ Fact Table Source: [GlobalLandTemperaturesByCity.csv](https://www.kaggle.com/ber
 - Latitude (object)  
 - Longitude (object)  
 
-Source: https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCountry.csv  
-- dt (object)  
-- AverageTemperature (float64)  
-- AverageTemperatureUncertainty (float64)  
-- Country (object)   
+Source: https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalTemperatures.csv
+- dt (object)
+- LandAverageTemperature (float64)
+- LandAverageTemperatureUncertainty (float64)
+- LandMaxTemperature (float64)
+- LandMaxTemperatureUncertainty (float64)
+- LandMinTemperature (float64)
+- LandMinTemperatureUncertainty (float64)
+- LandAndOceanAverageTemperature (float64)
+- LandAndOceanAverageTemperatureUncertainty (float64)  
 
 ### Dimension Table  
-Dimension_table_GlobalLandTemperaturesByCity.csv    
+Dimension_table_GlobalLandTemperaturesByCountry.csv    
 - year (int) create from dt  
 - month (int) create from dt
 - AverageTemperature (float64)  
-- AverageTemperatureUncertainty (float64)  
-- City (object)  
+- AverageTemperatureUncertainty (float64)    
 - Country (object)  
-- Latitude (object)  
-- Longitude (object) 
     
-Dimension_table_GlobalLandTemperaturesByCountry.csv
+Dimension_table_GlobalLandTemperaturesByCity.csv
 - dt (object)  
 - AverageTemperature (float64)  
 - AverageTemperatureUncertainty (float64)  
-- Country (object)   
+- City (object)
+- LandAndOceanAverageTemperature (float64) join from GlobalTemperatures.csv
+- year (int) create from dt  
+- month (int) create from dt
 
 ### Instructions
 
