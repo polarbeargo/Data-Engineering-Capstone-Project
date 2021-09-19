@@ -4,7 +4,7 @@
 #### Raw data:
 [Kaggle Berkeley Earth Climate Change: Earth Surface Temperature Data
 Exploring global temperatures since 1750](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data)   
-Source: [GlobalLandTemperaturesByCity.csv](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCity.csv)
+Fact Table Source: [GlobalLandTemperaturesByCity.csv](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCity.csv)
 - dt (object)  
 - AverageTemperature (float64)  
 - AverageTemperatureUncertainty (float64)  
@@ -13,6 +13,13 @@ Source: [GlobalLandTemperaturesByCity.csv](https://www.kaggle.com/berkeleyearth/
 - Latitude (object)  
 - Longitude (object)  
 
+Source: https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCountry.csv  
+- dt (object)  
+- AverageTemperature (float64)  
+- AverageTemperatureUncertainty (float64)  
+- Country (object)   
+
+### Dimension Table  
 Dimension_table_GlobalLandTemperaturesByCity.csv    
 - year (int) create from dt  
 - month (int) create from dt
@@ -22,8 +29,8 @@ Dimension_table_GlobalLandTemperaturesByCity.csv
 - Country (object)  
 - Latitude (object)  
 - Longitude (object) 
-
-Fact_table_GlobalLandTemperaturesByCountry.csv
+    
+Dimension_table_GlobalLandTemperaturesByCountry.csv
 - dt (object)  
 - AverageTemperature (float64)  
 - AverageTemperatureUncertainty (float64)  
