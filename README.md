@@ -25,7 +25,8 @@ Source: https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temper
 - LandAndOceanAverageTemperatureUncertainty (float64)  
 
 ### Dimension Table  
-Dimension_table_GlobalLandTemperaturesByCountry.csv    
+Dimension_table_GlobalLandTemperaturesByCountry.csv  
+- dt (object)  
 - year (int) create from dt  
 - month (int) create from dt
 - AverageTemperature (float64)  
