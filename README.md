@@ -42,6 +42,9 @@ Dimension_table_GlobalLandTemperaturesByCity.csv
 - year (int) create from dt  
 - month (int) create from dt
 
+### Mapping Out Data Pipelines  
+![](starSchema.png)  
+
 ### Instructions
 
 Step 1: Scope the Project and Gather Data  
