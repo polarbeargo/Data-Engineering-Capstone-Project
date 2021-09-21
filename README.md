@@ -24,6 +24,10 @@ Source: https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temper
 - LandAndOceanAverageTemperature (float64)
 - LandAndOceanAverageTemperatureUncertainty (float64)  
 
+### Conceptual Data Model  
+
+Climate change is close relate to time series analysis so I chosen that model to make time series analysis based on country, city and their AverageTemperature, AverageTemperatureUncertainty with LandAndOceanAverageTemperature base on dt, year, month levels as simple as possible. So all this information is stored in the fact tables. It is also possible to take a look at the  city and country level.  So i create two two dimension tables that come into question: city and country.  
+
 ### Dimension Table  
 Dimension_table_GlobalLandTemperaturesByCountry.csv  
 - dt (object)  
