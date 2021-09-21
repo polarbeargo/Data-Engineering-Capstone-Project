@@ -53,6 +53,13 @@ Step 3: Define the Data Model
 Step 4: Run ETL to Model the Data  
 Step 5: Complete Project Write Up  
 
+
+### Tools and technologies for the project.   
+ - The raw data is accessible in .csv format. Python's pandas is a great choice here for information cleaning and crunching. The amount of information is little and can be prepared very efficiently in dataframes. I set up the ETL pipeline and quality checks with pyspark. The Airflow can be an important addition to allow schedule of tasks according to a scheduler and make the process more agile and automatic without losing control of the steps.    
+ 
+### The schedule for Data Updates.      
+ - The information ought to be upgraded on a every day premise, as the raw data is updated on a every day premise as well.  
+  
 ### Scenarios:  
   - If the data was increased by 100x. 
    Let us imagine we are deploying a AWS EMR Start Cluster instance .xlarge with its linearly scalable, we may simply add the number of clusters to increase the performance thus we will be able to adjust the size and number of clusters as we see fit. if the data increased by 100x, we can save data to S3 and switch from a .xlarg to .10xlarge. This one has 640 GiB should be be able to handle it. Another way is to split the data into smaller chunks that can run in parallel thus make the process faster and more efficient.
