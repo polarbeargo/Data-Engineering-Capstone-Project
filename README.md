@@ -1,6 +1,29 @@
 # Data-Engineering-Capstone-Project  
 
-### Data dictionary 
+### Data dictionary  
+[Kaggle Berkeley Earth Climate Change: Earth Surface Temperature Data
+Exploring global temperatures since 1750](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data)  
+Global Land and Ocean-and-Land Temperatures (GlobalTemperatures.csv):  
+
+- Date: starts in 1750 for average land temperature and 1850 for max and min land temperatures and global ocean and land temperatures  
+- LandAverageTemperature: global average land temperature in celsius  
+- LandAverageTemperatureUncertainty: the 95% confidence interval around the average  
+- LandMaxTemperature: global average maximum land temperature in celsius   
+- LandMaxTemperatureUncertainty: the 95% confidence interval around the maximum land temperature   
+- LandMinTemperature: global average minimum land temperature in celsius  
+- LandMinTemperatureUncertainty: the 95% confidence interval around the minimum land temperature  
+- LandAndOceanAverageTemperature: global average land and ocean temperature in celsius  
+- LandAndOceanAverageTemperatureUncertainty: the 95% confidence interval around the global average land and ocean temperature  
+
+Global Land Temperatures By City (GlobalLandTemperaturesByCity.csv):  
+- Date: starts in 1750 for average land temperature and 1850 for max and min land temperatures and global ocean and land temperatures  
+- AverageTemperature: global average land temperature in celsius  
+- AverageTemperatureUncertainty: the 95% confidence interval around the average 
+- City: global cities list 
+- Country: global countries list
+- Latitude: Latitude 
+- Longitude: Longitude
+
 #### Raw data:
 [Kaggle Berkeley Earth Climate Change: Earth Surface Temperature Data
 Exploring global temperatures since 1750](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data)   
