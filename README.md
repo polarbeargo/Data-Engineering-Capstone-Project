@@ -95,3 +95,6 @@ Step 5: Complete Project Write Up
     - The Airflow helps us monitored and scheduler the runtime to avoid running past the 7am. The output data must be stored in an accessible database or accessible in S3 allow the data to search every day if there is new data coming. Assume the pipeline takes approximate 1h to run. Then a schedule should be set for running the pipeline every night at 5am leave a buffer of 1h or combination of Airflow + Spark + Apache Livy in EMR cluster so that Spark commands can be passed through an API interface.     
   - If the database needed to be accessed by 100+ people.  
     - Amazon Redshift Clusters are scaleable with elastic resize such that when ever the database or data warehouse runs the risk of not response the requests anymore, its performance could be increased to handle requests of the authorized 100+ people. Another way is with Amazon RDS, we can deploy scalable PostgreSQL DBs. Through AWS IAM features we can manage user access to our clusters. We could even use something like Amazon Cognito to manage user accounts. It allows us to create a custom sign-up + login page as well as a user management system.    
+
+### ETL Result Query
+![](ETLResultQuery.png)
